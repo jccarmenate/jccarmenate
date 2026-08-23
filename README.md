@@ -10,8 +10,6 @@
 
 I'm a Computer Science undergraduate who likes shipping complete, working systems — not just prototypes. Lately that means full-stack apps with real authentication/authorization, background job processing, and LLM features that **degrade gracefully** when no API key is present, so anyone can clone and run them. Before that, my focus was multi-agent AI systems, quantitative finance, and low-level systems/security programming — I still build in those areas too.
 
-- 🔭 Currently building a small portfolio of production-style full-stack apps: **[GuildWork](https://github.com/JuanCMath/GuildWork)** (RBAC project management), **[MeetScribe](https://github.com/JuanCMath/meetscribe)** (meeting summarizer), and **[ReviewLens](https://github.com/JuanCMath/ReviewLens)** (AI PR reviewer)
-- 📊 Also building **[quantedge](https://github.com/JuanCMath/quantedge)**, a quant-finance dashboard (risk metrics, PCA, Monte Carlo, Markowitz optimization)
 - 🎓 Studying Computer Science at the **University of Havana**
 - 🌱 Currently sharpening: JWT/refresh-token auth design, role-based access control, background job processing, and LLM-with-fallback architectures
 - 💬 Open to talk about full-stack architecture, AI agents, quant tools, or systems programming
