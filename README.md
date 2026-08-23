@@ -34,8 +34,6 @@ I'm a Computer Science undergraduate who likes shipping complete, working system
 | [**MatCom Guard**](https://github.com/JuanCMath/MatCom-Guard-SO-Project) | System-monitoring security tool that watches for malware-like behavior and anomalous resource usage at the OS level. | C |
 | [**Captive-Portal**](https://github.com/JuanCMath/Captive-Portal) | Captive portal that intercepts initial user traffic, redirects to an authentication page, and enforces network access-control rules. | Python |
 
-*(Tip: use **Customize your pins** on your profile to pin these repos manually — that also puts them in the "Popular repositories" section GitHub shows by default.)*
-
 ## 🛠️ Tech Stack
 
 **Languages**
