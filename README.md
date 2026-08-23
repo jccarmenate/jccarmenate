@@ -10,8 +10,6 @@
 
 I'm a Computer Science undergraduate focused on three things: **multi-agent AI systems**, **quantitative finance**, and **low-level systems/security programming**. I like projects that force me to combine theory with something runnable — optimization algorithms, statistical models, or a portfolio simulator that actually computes numbers live.
 
-- 🔭 Currently building **[quantedge](https://github.com/JuanCMath/quantedge)**, a quant-finance dashboard (risk metrics, PCA, Monte Carlo, Markowitz optimization)
-- 🤖 Also working on **[convo-sentinel](https://github.com/JuanCMath/convo-sentinel)**, an LLM-assisted suspicious-behavior detector for chat systems
 - 🎓 Studying Computer Science at the **University of Havana**
 - 🌱 Exploring agent frameworks (Google ADK) and applied statistics/ML
 - 💬 Open to talk about AI agents, quant tools, or systems programming
@@ -25,7 +23,6 @@ I'm a Computer Science undergraduate focused on three things: **multi-agent AI s
 | [**Suspicious-chat-detector**](https://github.com/JuanCMath/Suspicious-chat-detector) | Detects suspicious behavior patterns in chat sequences using Hill-Climbing optimization combined with a local LLM (Ollama) for semantic evaluation. | Python · Ollama |
 | [**MatCom Guard**](https://github.com/JuanCMath/MatCom-Guard-SO-Project) | System-monitoring security tool that watches for malware-like behavior and anomalous resource usage at the OS level. | C |
 | [**Captive-Portal**](https://github.com/JuanCMath/Captive-Portal) | Captive portal that intercepts initial user traffic, redirects to an authentication page, and enforces network access-control rules. | Python |
-| [**Quantitative Analysis of Financial Markets**](https://github.com/JuanCMath/Quantitative-Analysis-of-Financial-Markets) | Full statistical study of stock market assets: preprocessing, descriptive statistics, correlation analysis, PCA, regression, and clustering. | Jupyter · Python |
 
 *(Tip: pin these 6 on your profile via **Customize your pins** so they show up first — see notes below.)*
 
