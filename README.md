@@ -97,8 +97,4 @@ I'm a Computer Science undergraduate (final year) who likes shipping complete, w
 
 </div>
 
-## 📫 Contact
-
-[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:juancarlosmatcom@gmail.com)
-
 <!-- README structure inspired by GPRM (https://gprm.itsvg.in), rewritten by hand -->
