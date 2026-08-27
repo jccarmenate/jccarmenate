@@ -1,23 +1,24 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Juan+Carlos+%F0%9F%91%8B;CS+Student+%40+University+of+Havana;Building+AI%2FIR+systems%2C+full-stack+apps%2C" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Juan+Carlos+%F0%9F%91%8B;Computer+Science+Student+%40+University+of+Havana;Building+agentic+AI+systems%2C+full-stack+apps%2C+and+low-level+software" alt="Typing SVG" />
 
 </div>
 
 ## 💫 About Me
 
-I'm a Computer Science undergraduate (final year) who likes shipping complete, working systems — not just prototypes. That spans four areas: **AI & information retrieval** built from first principles rather than off-the-shelf orchestration frameworks; **full-stack apps** with real authentication, background jobs, and LLM features that degrade gracefully without an API key; **systems & networks programming** down at the socket/kernel level; and **simulation, games & quant** work — a vectorized epidemiological model, a from-scratch MCTS game AI, and a live quant-finance dashboard.
+I'm a Computer Science undergraduate (final year) who likes shipping complete, working systems. That spans five areas: **agentic AI systems** that orchestrate multiple LLM agents against a real, isolated execution sandbox; **AI & information retrieval** built from first principles rather than off-the-shelf orchestration frameworks; **full-stack apps** with real authentication, background jobs, and LLM features that degrade gracefully without an API key; **systems & networks programming** down at the socket/kernel level; and **simulation, games & quant** work — a vectorized epidemiological model, a from-scratch MCTS game AI, and a live quant-finance dashboard.
 
 - 🎓 Last-year Computer Science student at the **University of Havana** (MatCom)
-- 🌱 Currently sharpening: retrieval/ranking algorithms, JWT/RBAC auth design, and LLM-with-fallback architectures
-- 💬 Open to talk about IR/RAG systems, full-stack architecture, systems/networking, or simulation & quant tools — and open to internship/junior opportunities
+- 🌱 Currently sharpening: multi-agent orchestration, retrieval/ranking algorithms, JWT/RBAC auth design, and LLM-with-fallback architectures
+- 💬 Open to talk about agentic AI, IR/RAG systems, full-stack architecture, systems/networking, or simulation & quant tools — and open to internship/junior opportunities
 
 ## 🚀 Featured Projects
 
-**🔎 AI & Information Retrieval — flagship project**
+**🤖 Agentic AI & Information Retrieval — flagship projects**
 
 | Project | Description | Stack |
 |---|---|---|
+| [**multiagent-code-generator**](https://github.com/jccarmenate/multiagent-code-generator) | LangGraph-orchestrated system where 8 specialized agents (spec analyst → architect → db designer → coders → reviewer) turn a natural-language spec into a full-stack app, run it in a network-isolated, non-root Docker sandbox, and self-correct on real pytest/build failures — with a live dashboard showing the agent graph, streaming logs, and every correction iteration. | Python · LangGraph · FastAPI · Docker · React |
 | [**Tech RAG Information Retrieval System**](https://github.com/jccarmenate/tech-rag-information-retrieval-system) | Full IR system built module-by-module from scratch: custom inverted index + TF-IDF, a Bayesian inference-network retriever, a ChromaDB vector store, a RAG pipeline with a swappable LLM provider (Ollama/Claude), learning-to-rank fusion, query expansion (Rocchio + WordNet) with user feedback, CLIP-based multimodal search, hybrid recommendations, and IR evaluation (Precision@k, MAP, MRR, nDCG, LLM-as-judge). 120+ backend tests. | Python · FastAPI · ChromaDB · React |
 
 **Full-stack applications** — Node/Express/Prisma/PostgreSQL backend + React/Vite/Tailwind frontend, each with CI, Docker Compose for local dev, and a real test suite
@@ -58,8 +59,10 @@ I'm a Computer Science undergraduate (final year) who likes shipping complete, w
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat-square&logo=php&logoColor=white)
 ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=flat-square&logo=lua&logoColor=white)
 
-**AI / IR & Data**
+**AI / Agents / IR & Data**
 
+![LangChain](https://img.shields.io/badge/langchain-%231C3C3C.svg?style=flat-square&logo=langchain&logoColor=white)
+![Ollama](https://img.shields.io/badge/ollama-%23000000.svg?style=flat-square&logo=ollama&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white)
@@ -95,6 +98,17 @@ I'm a Computer Science undergraduate (final year) who likes shipping complete, w
 ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=flat-square&logo=apache&logoColor=white)
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=flat-square&logo=anaconda&logoColor=white)
 
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=jccarmenate&theme=dark&hide_border=true&include_all_commits=true&count_private=false" height="165" alt="GitHub stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jccarmenate&theme=dark&hide_border=true&layout=compact" height="165" alt="Top languages"/>
+
+<img src="https://nirzak-streak-stats.vercel.app/?user=jccarmenate&theme=dark&hide_border=true" alt="GitHub streak"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=jccarmenate&theme=darkhub&no-frame=true&row=1&column=6&margin-w=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub trophies"/>
+
 </div>
 
-<!-- README structure inspired by GPRM (https://gprm.itsvg.in), rewritten by hand -->
+## 📫 Contact
