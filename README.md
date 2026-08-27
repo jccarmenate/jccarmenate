@@ -103,5 +103,3 @@ I'm a Computer Science undergraduate (final year) who likes shipping complete, w
 <img src="https://github-profile-trophy.vercel.app/?username=jccarmenate&theme=darkhub&no-frame=true&row=1&column=6&margin-w=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub trophies"/>
 
 </div>
-
-## 📫 Contact
