@@ -98,13 +98,6 @@ I'm a Computer Science undergraduate (final year) who likes shipping complete, w
 ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=flat-square&logo=apache&logoColor=white)
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=flat-square&logo=anaconda&logoColor=white)
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=jccarmenate&theme=dark&hide_border=true&include_all_commits=true&count_private=false" height="165" alt="GitHub stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jccarmenate&theme=dark&hide_border=true&layout=compact" height="165" alt="Top languages"/>
-
 <img src="https://nirzak-streak-stats.vercel.app/?user=jccarmenate&theme=dark&hide_border=true" alt="GitHub streak"/>
 
 <img src="https://github-profile-trophy.vercel.app/?username=jccarmenate&theme=darkhub&no-frame=true&row=1&column=6&margin-w=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub trophies"/>
