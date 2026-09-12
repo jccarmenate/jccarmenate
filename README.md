@@ -44,7 +44,6 @@ I'm a Computer Science undergraduate (final year) who likes shipping complete, w
 |---|---|---|
 | [**Population-Simulation**](https://github.com/jccarmenate/Population-Simulation) | Discrete-event population model with a numpy-vectorized engine (custom LCG, block-doubled for O(n) batch generation), a multi-variant SEIR epidemic model (reinfection, immune escape, second/third waves) calibrated COVID-like, and an interactive Streamlit app. | Python · NumPy · Streamlit |
 | [**quantedge**](https://github.com/jccarmenate/quantedge) | Interactive quant-finance dashboard — risk metrics, hypothesis testing, multi-factor regression, PCA/clustering, Markowitz portfolio optimization via Monte Carlo, and GBM price simulation, computed live. | TypeScript · Node.js · Prisma |
-| [**Sistema Multiagentes — Gestión de Viajes en La Habana**](https://github.com/jccarmenate/Sistema-Multiagentes-para-la-Gesti-n-de-Viajes-en-La-Habana) | Multi-agent system built with Google's Agent Development Kit (ADK) to manage user travel across Havana, factoring in live weather conditions, exposed as a FastAPI service. | Python · Google ADK · FastAPI |
 | [**HexArena**](https://github.com/jccarmenate/HexArena) | Desktop Hex game for Windows with a self-built AI (MCTS + RAVE, Dijkstra distance bias, bridge recognition) — vs-AI, local hotseat, and LAN multiplayer, packaged as a single portable .exe. | Python · pywebview |
 
 ## 🛠️ Tech Stack
