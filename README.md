@@ -27,7 +27,6 @@ I'm a Computer Science undergraduate (final year) who likes shipping complete, w
 | Project | Description | Stack |
 |---|---|---|
 | [**GuildWork**](https://github.com/jccarmenate/GuildWork) | Project-management system with three enforced roles (Admin/PM/Developer), a two-token JWT scheme (short-lived access token + rotating httpOnly refresh token) with replay detection, and a server-side authorization matrix backing every route. | TypeScript · Express · Prisma · React |
-| [**MeetScribe**](https://github.com/jccarmenate/MeetScribe) | Turns a meeting recording or transcript into a summary, decisions, and action items. Processes uploads asynchronously (202-Accepted + client polling) and falls back to a deterministic heuristic extractor when no LLM key is configured. | TypeScript · Express · Prisma · React |
 | [**ReviewLens**](https://github.com/jccarmenate/ReviewLens) | AI-powered GitHub PR reviewer — paste a PR URL and get line-anchored findings, a risk score, and a diff overlay. Falls back to a real static-analysis heuristic (secrets, debug statements, untested changed files) when no LLM is available. | TypeScript · Express · Prisma · React |
 
 **Systems, networks & security**
