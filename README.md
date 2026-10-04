@@ -6,7 +6,7 @@
 
 ## 💫 About Me
 
-I'm a Computer Science undergraduate (final year) who likes shipping complete, working systems. That spans five areas: **agentic AI systems** that orchestrate multiple LLM agents against a real, isolated execution sandbox; **AI & information retrieval** built from first principles rather than off-the-shelf orchestration frameworks; **full-stack apps** with real authentication, background jobs, and LLM features that degrade gracefully without an API key; **systems & networks programming** down at the socket/kernel level; and **simulation, games & quant** work — a vectorized epidemiological model, a from-scratch MCTS game AI, and a live quant-finance dashboard.
+I'm a Computer Science undergraduate (final year) who ships complete, working systems. That spans five areas: **agentic AI systems** that orchestrate multiple LLM agents against a real, isolated execution sandbox; **AI & information retrieval** built from first principles rather than off-the-shelf orchestration frameworks; **full-stack apps** with real authentication, background jobs, and LLM features that degrade gracefully without an API key; **systems & networks programming** down at the socket/kernel level; and **simulation, games & quant** work — a vectorized epidemiological model, a from-scratch MCTS game AI, and a live quant-finance dashboard.
 
 - 🎓 Last-year Computer Science student at the **University of Havana** (MatCom)
 - 🌱 Currently sharpening: multi-agent orchestration, retrieval/ranking algorithms, JWT/RBAC auth design, and LLM-with-fallback architectures
