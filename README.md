@@ -6,6 +6,12 @@ I'm interested in how software works end to end: from retrieval and agent orches
 
 **Open to internships and junior software engineering opportunities.**
 
+## Agent Lab
+
+[![Agent Lab — robots powered by my recent public GitHub activity](assets/agent-lab.svg)](AGENT-LAB.md)
+
+*My public activity powers the lab. Updated daily · [How it works](AGENT-LAB.md)*
+
 ## Selected projects
 
 | Project | What it explores | Technologies |

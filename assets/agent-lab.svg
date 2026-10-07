@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="506" viewBox="0 0 1000 506" role="img" aria-labelledby="title desc">
+<title id="title">jccarmenate's Agent Lab</title>
+<desc id="desc">Animated laboratory. Observed public activity in the last 30 days: 60 pushes, 0 reviews, 0 merged pull requests, 0 releases. Updated 2026-10-07. Decorative robots represent activity, not running agents.</desc>
+<defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#21304b" stroke-opacity=".32"/></pattern><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111b30"/><stop offset="1" stop-color="#080e1e"/></linearGradient></defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.micro{font-size:11px;letter-spacing:.7px}
+.bob{animation:bob 2.4s ease-in-out infinite}.pulse{animation:pulse 2s ease-in-out infinite}.screen .cursor{animation:pulse 1.2s steps(2) infinite}.screen{animation:screen 5s ease-in-out infinite}.carrier{animation:travel 18s ease-in-out infinite}.screen .flame{animation:pulse .7s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px)}}@keyframes pulse{50%{opacity:.35}}@keyframes screen{50%{opacity:.7}}@keyframes travel{0%,8%{transform:translateX(0)}45%,55%{transform:translateX(842px)}92%,100%{transform:translateX(0)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="998" height="504" rx="22" fill="url(#bg)" stroke="#33415c"/>
+<rect x="2" y="2" width="996" height="502" rx="22" fill="url(#grid)"/>
+<rect x="34" y="29" width="31" height="31" rx="9" fill="#15354a"/><path d="M42 44h15m-8-8v16" stroke="#67e8f9" stroke-width="3"/>
+<text x="78" y="51" fill="#f1f6ff" font-size="27" font-weight="700" letter-spacing="2">AGENT LAB</text>
+<text x="35" y="84" fill="#96abc7" font-size="12">@jccarmenate / small robots, real work.</text>
+<rect x="745" y="29" width="219" height="36" rx="18" fill="#14293c" stroke="#2a4b5b"/>
+<circle cx="764" cy="47" r="4" fill="#6ae0b2"/>
+<text x="778" y="51" fill="#b6eadc" font-size="11">DAILY ACTIVITY SNAPSHOT</text>
+<text x="963" y="85" text-anchor="end" fill="#8da2bd" font-size="11">OBSERVED PUBLIC EVENTS / 30 DAYS</text>
+<path d="M34 108h930" stroke="#2a3952"/>
+<g transform="translate(34 133)">
+      <rect width="220" height="208" rx="14" fill="#111d32" stroke="#283750"/>
+      <path d="M14 0h192" stroke="#61dfed" stroke-width="3"/>
+      <text x="16" y="28" class="micro" fill="#61dfed">01 / CODE</text>
+      <rect x="16" y="43" width="188" height="78" rx="7" fill="#091323" stroke="#26354d"/>
+      <g class="screen"><path d="M33 61h25m8 0h39M33 75h15m8 0h73M33 89h36m8 0h22M33 103h63" stroke="#61dfed" stroke-width="4" stroke-linecap="round"/><rect class="cursor" x="105" y="99" width="7" height="8" fill="#61dfed"/></g>
+      <path d="M19 133h182M32 133v12m154-12v12" stroke="#3b4b66" stroke-width="3"/>
+      <g transform="translate(26 139)"><g class="bob" >
+    <path d="M18 0v8" stroke="#61dfed" stroke-width="3"/><rect x="14" y="0" width="8" height="5" rx="2" fill="#61dfed"/>
+    <rect x="0" y="8" width="36" height="25" rx="7" fill="#61dfed"/><rect x="5" y="14" width="26" height="11" rx="4" fill="#10192e"/>
+    <path d="M11 18v3m14-3v3" stroke="#e6faff" stroke-width="3"/><rect x="7" y="35" width="22" height="16" rx="4" fill="#61dfed"/>
+    <path d="M3 37l-5 8m35-8l5 8M12 51v7m13-7v7" stroke="#61dfed" stroke-width="4"/>
+    <rect x="13" y="39" width="10" height="5" rx="2" fill="#10192e"/>
+  </g></g>
+      <text x="89" y="164" font-size="27" font-weight="700" fill="#f2f7ff">60</text>
+      <text x="89" y="181" class="micro" fill="#a9bad0">PUSHES</text>
+      <circle cx="193" cy="195" r="3" fill="#61dfed" class="pulse"/>
+    </g>
+<g transform="translate(271 133)">
+      <rect width="220" height="208" rx="14" fill="#111d32" stroke="#283750"/>
+      <path d="M14 0h192" stroke="#b0a0ff" stroke-width="3"/>
+      <text x="16" y="28" class="micro" fill="#b0a0ff">02 / REVIEW</text>
+      <rect x="16" y="43" width="188" height="78" rx="7" fill="#091323" stroke="#26354d"/>
+      <g class=""><path d="M42 64l5 5 8-10m-13 24 5 5 8-10m-13 24 5 5 8-10" fill="none" stroke="#b0a0ff" stroke-width="3"/><path d="M67 65h84m-84 19h63m-63 19h74" stroke="#677494" stroke-width="4" stroke-linecap="round"/></g>
+      <path d="M19 133h182M32 133v12m154-12v12" stroke="#3b4b66" stroke-width="3"/>
+      <g transform="translate(26 139)"><g class="" >
+    <path d="M18 0v8" stroke="#b0a0ff" stroke-width="3"/><rect x="14" y="0" width="8" height="5" rx="2" fill="#b0a0ff"/>
+    <rect x="0" y="8" width="36" height="25" rx="7" fill="#b0a0ff"/><rect x="5" y="14" width="26" height="11" rx="4" fill="#10192e"/>
+    <path d="M11 18v3m14-3v3" stroke="#e6faff" stroke-width="3"/><rect x="7" y="35" width="22" height="16" rx="4" fill="#b0a0ff"/>
+    <path d="M3 37l-5 8m35-8l5 8M12 51v7m13-7v7" stroke="#b0a0ff" stroke-width="4"/>
+    <rect x="13" y="39" width="10" height="5" rx="2" fill="#10192e"/>
+  </g></g>
+      <text x="89" y="164" font-size="27" font-weight="700" fill="#f2f7ff">0</text>
+      <text x="89" y="181" class="micro" fill="#a9bad0">REVIEWS</text>
+      <circle cx="193" cy="195" r="3" fill="#4a5971" class=""/>
+    </g>
+<g transform="translate(508 133)">
+      <rect width="220" height="208" rx="14" fill="#111d32" stroke="#283750"/>
+      <path d="M14 0h192" stroke="#6ae0b2" stroke-width="3"/>
+      <text x="16" y="28" class="micro" fill="#6ae0b2">03 / ASSEMBLE</text>
+      <rect x="16" y="43" width="188" height="78" rx="7" fill="#091323" stroke="#26354d"/>
+      <g class=""><path d="M44 66h39l25 28h65M44 102h39l25-28h65" fill="none" stroke="#6ae0b2" stroke-width="3"/><g fill="#122c30" stroke="#6ae0b2" stroke-width="2"><circle cx="44" cy="66" r="7"/><circle cx="44" cy="102" r="7"/><circle cx="173" cy="94" r="7"/><circle cx="173" cy="74" r="7"/></g></g>
+      <path d="M19 133h182M32 133v12m154-12v12" stroke="#3b4b66" stroke-width="3"/>
+      <g transform="translate(26 139)"><g class="" >
+    <path d="M18 0v8" stroke="#6ae0b2" stroke-width="3"/><rect x="14" y="0" width="8" height="5" rx="2" fill="#6ae0b2"/>
+    <rect x="0" y="8" width="36" height="25" rx="7" fill="#6ae0b2"/><rect x="5" y="14" width="26" height="11" rx="4" fill="#10192e"/>
+    <path d="M11 18v3m14-3v3" stroke="#e6faff" stroke-width="3"/><rect x="7" y="35" width="22" height="16" rx="4" fill="#6ae0b2"/>
+    <path d="M3 37l-5 8m35-8l5 8M12 51v7m13-7v7" stroke="#6ae0b2" stroke-width="4"/>
+    <rect x="13" y="39" width="10" height="5" rx="2" fill="#10192e"/>
+  </g></g>
+      <text x="89" y="164" font-size="27" font-weight="700" fill="#f2f7ff">0</text>
+      <text x="89" y="181" class="micro" fill="#a9bad0">MERGED PRs</text>
+      <circle cx="193" cy="195" r="3" fill="#4a5971" class=""/>
+    </g>
+<g transform="translate(745 133)">
+      <rect width="220" height="208" rx="14" fill="#111d32" stroke="#283750"/>
+      <path d="M14 0h192" stroke="#ffcb83" stroke-width="3"/>
+      <text x="16" y="28" class="micro" fill="#ffcb83">04 / LAUNCH</text>
+      <rect x="16" y="43" width="188" height="78" rx="7" fill="#091323" stroke="#26354d"/>
+      <g class=""><path d="M104 98V76q0-15 10-24 10 9 10 24v22z" fill="#ffcb83"/><circle cx="114" cy="74" r="4" fill="#18243c"/><path d="M104 85l-9 15h9m20-15 9 15h-9" fill="#e2965b"/><path class="flame" d="M109 102l5 12 5-12" fill="#f78c8c"/></g>
+      <path d="M19 133h182M32 133v12m154-12v12" stroke="#3b4b66" stroke-width="3"/>
+      <g transform="translate(26 139)"><g class="" >
+    <path d="M18 0v8" stroke="#ffcb83" stroke-width="3"/><rect x="14" y="0" width="8" height="5" rx="2" fill="#ffcb83"/>
+    <rect x="0" y="8" width="36" height="25" rx="7" fill="#ffcb83"/><rect x="5" y="14" width="26" height="11" rx="4" fill="#10192e"/>
+    <path d="M11 18v3m14-3v3" stroke="#e6faff" stroke-width="3"/><rect x="7" y="35" width="22" height="16" rx="4" fill="#ffcb83"/>
+    <path d="M3 37l-5 8m35-8l5 8M12 51v7m13-7v7" stroke="#ffcb83" stroke-width="4"/>
+    <rect x="13" y="39" width="10" height="5" rx="2" fill="#10192e"/>
+  </g></g>
+      <text x="89" y="164" font-size="27" font-weight="700" fill="#f2f7ff">0</text>
+      <text x="89" y="181" class="micro" fill="#a9bad0">RELEASES</text>
+      <circle cx="193" cy="195" r="3" fill="#4a5971" class=""/>
+    </g>
+<path d="M48 392h904" stroke="#233651" stroke-width="7" stroke-linecap="round"/><path d="M48 392h904" stroke="#57708d" stroke-width="1" stroke-dasharray="3 12"/>
+<g transform="translate(57 355)"><g class="carrier"><rect width="34" height="25" rx="6" fill="#b0a0ff"/><rect x="5" y="5" width="24" height="9" rx="3" fill="#14213b"/><path d="M11 8v3m12-3v3" stroke="#fff" stroke-width="2"/><circle cx="8" cy="29" r="5" fill="#7a86a3"/><circle cx="27" cy="29" r="5" fill="#7a86a3"/><rect x="8" y="-10" width="17" height="10" rx="2" fill="#61dfed"/></g></g>
+<text x="35" y="428" class="micro" fill="#8197b4">LATEST SIGNAL</text><text x="35" y="449" font-size="14" fill="#e0ebfc">live-cooperating-dashboard</text>
+<text x="634" y="428" class="micro" fill="#b0a0ff">LAB LEVEL 3 / 60 ENERGY</text>
+<rect x="634" y="441" width="329" height="8" rx="4" fill="#22314b"/><rect x="634" y="441" width="131.6" height="8" rx="4" fill="#a899fa"/>
+<text x="35" y="482" fill="#8da2bd" font-size="10">REST-powered / push +1 / review +2 / merge +4 / release +8</text>
+<text x="964" y="482" text-anchor="end" fill="#8da2bd" font-size="10">SYNC 2026-10-07 UTC</text>
+</svg>
