@@ -6,11 +6,11 @@ I'm interested in how software works end to end: from retrieval and agent orches
 
 **Open to internships and junior software engineering opportunities.**
 
-## Agent Lab
+## From idea to running software
 
-[![Agent Lab — robots powered by my recent public GitHub activity](assets/agent-lab.svg)](AGENT-LAB.md)
+[![From idea to running software — agent orchestration, retrieval, compiler engineering, and full-stack development](assets/engineering-showcase.svg)](ENGINEERING.md)
 
-*My public activity powers the lab. Updated daily · [How it works](AGENT-LAB.md)*
+*I build across the stack — from compilers to AI agents. [Explore the capabilities](ENGINEERING.md).*
 
 ## Selected projects
 
