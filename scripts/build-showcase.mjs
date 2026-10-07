@@ -1,52 +1,50 @@
-import {mkdir,writeFile} from 'node:fs/promises';
+import { mkdir, writeFile } from 'node:fs/promises';
 
-const colors=['#64e4ee','#b6a2ff','#75e2b5','#ffc98a'];
-const stages=[
- {title:'ORCHESTRATE',project:'Multi-agent Code Generator',stack:'Python / LangGraph / Docker',caption:'Coordinate. Execute. Iterate.',graphic:`<path d="M108 38v18H48v23m60-23h60v23m-60-23v23" class="wire"/><rect class="signal" x="105" y="52" width="6" height="6" fill="currentColor"/><g stroke="currentColor" stroke-width="1.5" fill="#172638"><path d="M87 13h34l8 8v17H87zM28 80h33l7 7v24H28zM88 80h33l7 7v24H88zM148 80h33l7 7v24h-40z"/><path d="M94 20h25v10H94zM35 88h26v14H35zM95 88h26v14H95zM155 88h26v14h-26z" fill="#0a1325"/></g><g stroke="#8cabc2" stroke-width="1"><path d="M92 9v4m8-4v4m8-4v4m8-4v4M83 22h4m-4 8h4m42-8h4m-4 8h4M33 76v4m8-4v4m8-4v4m8-4v4m36-4v4m8-4v4m8-4v4m8-4v4m36-4v4m8-4v4m8-4v4m8-4v4"/></g><path d="M99 25h15M40 93h16m-16 5h9m51-5h16m-16 5h9m51-5h16m-16 5h9" stroke="currentColor" stroke-width="2"/>`},
- {title:'RETRIEVE',project:'Tech RAG',stack:'Python / FastAPI / ChromaDB',caption:'Find context. Build answers.',graphic:`<g stroke="currentColor" stroke-width="1.5" fill="#192337"><path d="M23 17h27l12 12v46H23zM50 17v12h12"/><path d="M31 39h22m-22 9h22m-22 9h15"/><path d="M100 16h43v59h-43zM100 35h43m-43 20h43"/><path d="M105 22h19m-19 19h19m-19 20h19" stroke="#7c8fab"/><path d="M133 22h4m-4 19h4m-4 20h4" stroke-width="3"/></g><path d="M70 46h23m58 0h22" class="wire"/><rect class="signal" x="77" y="43" width="5" height="5" fill="currentColor"/><path d="M179 33l12 13-12 13" fill="none" stroke="currentColor" stroke-width="2"/><path d="M66 88h118l9 9v15H66z" fill="#202a40" stroke="#6e6999"/><path class="answer" d="M77 100h91" stroke="currentColor" stroke-width="3"/><path d="M174 96l5 4-5 4" fill="none" stroke="currentColor"/>`},
- {title:'COMPILE',project:'HULK IDE',stack:'Rust / LLVM / LSP',caption:'From syntax to execution.',graphic:`<path d="M41 25l-13 13 13 13m20-26 13 13-13 13m-7-30-8 36" fill="none" stroke="currentColor" stroke-width="2"/><path d="M86 39h28m15-2v23m0 0h-25v21m25-21h26v21" class="wire"/><g fill="#19302f" stroke="currentColor" stroke-width="1.5"><path d="M123 16h12l6 11-6 11h-12l-6-11zM98 78h12l6 10-6 10H98l-6-10zM149 78h12l6 10-6 10h-12l-6-10z"/></g><path d="M125 24h8m-8 5h8M100 88h8m43 0h8" stroke="#98bcb5"/><g class="compiled"><path d="M170 17h22l7 7v30h-29z" fill="#18342f" stroke="currentColor" stroke-width="1.5"/><path d="M175 12v5m7-5v5m9-5v5m-16 37v5m7-5v5m9-5v5M165 27h5m-5 8h5m-5 8h5m29-16h5m-5 8h5m-5 8h5" stroke="currentColor"/><path d="M180 27l9 8-9 8z" fill="currentColor"/></g>`},
- {title:'BUILD PRODUCTS',project:'GuildWork',stack:'TypeScript / React / Prisma',caption:'Connect the whole system.',graphic:`<g stroke="currentColor" stroke-width="1.5" fill="#252b35"><path d="M20 14h105l7 7v65H20zM20 30h112"/><path d="M27 22h5m4 0h5"/><path d="M66 86v6m-16 1h34" stroke="#91a0b2"/></g><g class="product"><rect x="29" y="40" width="25" height="35" fill="#625440"/><rect x="62" y="40" width="60" height="9" fill="currentColor"/><path d="M64 60h49m-49 11h36" stroke="#bb9974" stroke-width="3"/></g><path d="M142 48h17m19 12v35h-61" class="wire"/><path d="M160 33h31l7 7v20h-38z" fill="#34302e" stroke="currentColor" stroke-width="1.5"/><text x="179" y="51" text-anchor="middle" fill="currentColor" font-size="11">API</text><path d="M78 94h33v20H78zM78 104h33m-28-5h14m-14 10h14" fill="#302d2c" stroke="currentColor" stroke-width="1.5"/><path d="M103 99h4m-4 10h4" stroke="#c4d2e0" stroke-width="2"/>`}
+const items = [
+  {title:'Agent orchestration',project:'Multi-agent Code Generator',description:'Coordinate agents. Execute. Iterate.',stack:'Python · LangGraph · Docker',icon:'M4 4h6v6H4zM22 20h6v6h-6zM4 20h6v6H4zM7 10v6h18v4M7 16v4'},
+  {title:'Information retrieval',project:'Tech RAG',description:'Turn documents into useful context.',stack:'Python · FastAPI · ChromaDB',icon:'M5 3h14l5 5v8M19 3v6h5M5 3v25h10M9 12h8M9 17h5M24 24l5 5'},
+  {title:'Compiler engineering',project:'HULK IDE',description:'Build the path from source to execution.',stack:'Rust · LLVM · LSP',icon:'M10 7L2 15l8 8M22 7l8 8-8 8M19 3l-6 24'},
+  {title:'Full-stack development',project:'GuildWork',description:'Connect interfaces, APIs, and data.',stack:'TypeScript · React · Prisma',icon:'M3 4h26v23H3zM3 10h26M8 16h6v6H8zM19 16h5M19 21h5'}
 ];
-const cards=stages.map((s,i)=>`<g transform="translate(${32+i*237} 148)" style="color:${colors[i]}">
- <rect width="224" height="233" rx="4" fill="#111e32" stroke="#2c3a53"/>
- <rect class="highlight phase${i}" x="1" y="1" width="222" height="231" rx="3" fill="currentColor" fill-opacity=".045" stroke="currentColor" stroke-width="2"/>
- <text x="15" y="29" fill="currentColor" font-size="14" font-weight="700">${s.title}</text>
- <rect x="12" y="44" width="200" height="120" rx="2" fill="#0a1325"/>
- <g transform="translate(4 44)" class="stage phase${i}">${s.graphic}</g>
- <text x="15" y="187" fill="#eff5ff" font-size="${i===0?12:15}" font-weight="600">${s.project}</text>
- <text x="15" y="207" fill="#b1c2d9" font-size="10.5">${s.stack}</text>
- <text x="15" y="223" fill="#8ca3c0" font-size="10.5">${s.caption}</text>
-</g>`).join('\n');
-const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="530" viewBox="0 0 1000 530" role="img" aria-labelledby="title desc">
-<title id="title">From idea to running software — Juan Carlos</title>
-<desc id="desc">Four capabilities demonstrated by real projects: agent orchestration with Multi-agent Code Generator, retrieval with Tech RAG, compiler engineering with HULK IDE, and full-stack product development with GuildWork. An articulated industrial robot carries a processor between four stations in a fifteen-second loop. This is a conceptual showcase, not a live execution pipeline.</desc>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#142139"/><stop offset="1" stop-color="#080f20"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#283a55" stroke-opacity=".3"/></pattern><linearGradient id="rail"><stop stop-color="#64e4ee"/><stop offset=".5" stop-color="#b6a2ff"/><stop offset="1" stop-color="#ffc98a"/></linearGradient></defs>
-<style>
-text{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.wire{fill:none;stroke:currentColor;stroke-width:2;stroke-dasharray:4 5}.highlight{opacity:.14;animation:focus 15s linear infinite}.stage .signal,.stage .answer,.stage .compiled,.stage .product{animation:detail 15s ease-in-out infinite}.stage .wire{animation:flow 1.8s linear infinite}.phase1,.phase1 *{animation-delay:3.75s!important}.phase2,.phase2 *{animation-delay:7.5s!important}.phase3,.phase3 *{animation-delay:11.25s!important}.courier{animation:travel 15s ease-in-out infinite}.phaseText{opacity:0;animation:label 15s linear infinite}.phaseText:first-child{opacity:1}
-@keyframes focus{0%,22%{opacity:1}25%,97%{opacity:.14}100%{opacity:1}}@keyframes detail{0%{opacity:.3}12%,24%{opacity:1}30%,100%{opacity:.45}}@keyframes flow{to{stroke-dashoffset:-36}}@keyframes label{0%,23%{opacity:1}25%,100%{opacity:0}}@keyframes travel{0%,17%{transform:translateX(0);opacity:1}25%,42%{transform:translateX(237px);opacity:1}50%,67%{transform:translateX(474px);opacity:1}75%,92%{transform:translateX(711px);opacity:1}98%{transform:translateX(840px);opacity:0}99%{transform:translateX(0);opacity:0}100%{transform:translateX(0);opacity:1}}
-@media(prefers-reduced-motion:reduce){*{animation:none!important}.highlight{opacity:.5}.phaseText{display:none}.phaseText:first-child{display:inline;opacity:1}}
-</style>
-<rect x="1" y="1" width="998" height="528" rx="22" fill="url(#bg)" stroke="#34465f"/><rect x="2" y="2" width="996" height="526" rx="22" fill="url(#grid)"/>
-<text x="33" y="39" fill="#70dfea" font-size="11" letter-spacing="2">JUAN CARLOS / ENGINEERING IN MOTION</text>
-<text x="32" y="82" fill="#f3f7ff" font-size="32" font-weight="700" letter-spacing="-1">From idea to running software.</text>
-<text x="33" y="111" fill="#b6c7de" font-size="15">I build across the stack — from compilers to AI agents.</text>
-${cards}
-<path d="M50 444h899" fill="none" stroke="#24344d" stroke-width="7" stroke-linecap="round"/><path d="M50 444h899" fill="none" stroke="url(#rail)" stroke-width="2" stroke-dasharray="3 10"/>
-<g transform="translate(123 401)"><g class="courier">
-<g stroke="#8297af" stroke-width="1.5" stroke-linejoin="miter">
- <path d="M-6 29h39l6 7v7H-11v-7z" fill="#25354b"/><path d="M-6 33h36l4 4H-8z" fill="#546579"/>
- <path d="M3 26v-9h12v12" fill="#687992"/><path d="M8 19L-1 2l6-4 13 19z" fill="#a0adbd"/><path d="M1 0l16-16 5 5L8 5z" fill="#64788e"/>
- <path d="M18-14l16 3-1 6-15-2z" fill="#a2b1c2"/><path d="M33-10h5v9m-5-3h-5v5m10-2h5v4" fill="none" stroke="#b5a7de" stroke-width="2"/>
- <circle cx="9" cy="18" r="3" fill="#142238"/><circle cx="3" cy="1" r="3" fill="#233a50"/><circle cx="19" cy="-12" r="2.5" fill="#233a50"/>
- <path d="M1 5l5 11m3-17 7-7" stroke="#5bd6e3" stroke-width="1"/>
- <path d="M28 2h13v12H28z" fill="#bc9656" stroke="#ffce87"/><path d="M31 5h7v6h-7z" fill="#394655" stroke-width="1"/>
- <path d="M30-1v3m5-3v3m5-3v3M30 14v3m5-3v3m5-3v3" stroke="#ffce87" stroke-width="1"/>
- <path d="M-4 40h7m15 0h11" stroke="#111c2d" stroke-width="4"/><path d="M18 32h8" stroke="#6be0e9" stroke-width="2"/>
-</g></g></g>
-<g fill="#e5edfc" font-size="13"><text class="phaseText phase0" x="33" y="483">01 / An idea becomes a plan.</text><text class="phaseText phase1" x="33" y="483">02 / Knowledge becomes context.</text><text class="phaseText phase2" x="33" y="483">03 / Source becomes executable.</text><text class="phaseText phase3" x="33" y="483">04 / Components become a product.</text></g>
-<text x="966" y="483" text-anchor="end" fill="#a99bea" font-size="11">FOUR CAPABILITIES. REAL PROJECTS.</text>
-<text x="33" y="510" fill="#889ebd" font-size="10">ARCHITECTURE / AI &amp; RETRIEVAL / LANGUAGE TOOLING / FULL-STACK DEVELOPMENT</text>
-</svg>\n`;
+const palettes={
+  dark:{bg:'#0d1117',panel:'#0d1117',mutedBg:'#161b22',border:'#30363d',text:'#e6edf3',muted:'#9198a1',blue:'#58a6ff',accentBg:'#13233a'},
+  light:{bg:'#ffffff',panel:'#ffffff',mutedBg:'#f6f8fa',border:'#d1d9e0',text:'#1f2328',muted:'#59636e',blue:'#0969da',accentBg:'#ddf4ff'}
+};
+function render(theme){
+ const c=palettes[theme];
+ const cards=items.map((item,i)=>{
+  const x=20+(i%2)*402,y=69+Math.floor(i/2)*140;
+  return `<g transform="translate(${x} ${y})">
+   <rect width="386" height="124" rx="6" fill="${c.panel}" stroke="${c.border}"/>
+   <rect class="focus p${i}" x=".5" y=".5" width="385" height="123" rx="6" fill="none" stroke="${c.blue}" stroke-width="1.5"/>
+   <g transform="translate(17 16) scale(.68)" stroke="${c.muted}" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"><path d="${item.icon}"/>${i===1?'<circle cx="20" cy="20" r="6"/>':''}</g>
+   <text x="49" y="32" fill="${c.text}" font-size="17" font-weight="600">${item.title}</text>
+   <text x="17" y="57" fill="${c.blue}" font-size="14" font-weight="600">${item.project}</text>
+   <text x="17" y="80" fill="${c.muted}" font-size="13">${item.description}</text>
+   <circle cx="21" cy="104" r="4" fill="${i===2?'#dea584':i===3?'#3178c6':'#3572a5'}"/>
+   <text x="32" y="108" fill="${c.muted}" font-size="12">${item.stack}</text>
+   <path class="progress p${i}" d="M338 105h28" stroke="${c.blue}" stroke-width="2"/>
+  </g>`;
+ }).join('\n');
+ return `<svg xmlns="http://www.w3.org/2000/svg" width="840" height="409" viewBox="0 0 840 409" role="img" aria-labelledby="title desc">
+ <title id="title">Engineering capabilities — Juan Carlos</title>
+ <desc id="desc">Agent orchestration: Multi-agent Code Generator. Information retrieval: Tech RAG. Compiler engineering: HULK IDE. Full-stack development: GuildWork. A subtle twelve-second highlight connects the four capabilities. Project links are below this image.</desc>
+ <style>
+ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.focus{opacity:0;animation:focus 12s ease-in-out infinite}.progress{opacity:.12;stroke-dasharray:28;stroke-dashoffset:28;animation:progress 12s ease-in-out infinite}.p1{animation-delay:3s}.p2{animation-delay:6s}.p3{animation-delay:9s}.packet{animation:packet 12s linear infinite}
+ @keyframes focus{0%,2%{opacity:0}5%,21%{opacity:.8}25%,100%{opacity:0}}@keyframes progress{0%{opacity:.1;stroke-dashoffset:28}21%{opacity:1;stroke-dashoffset:0}25%,100%{opacity:.12;stroke-dashoffset:0}}@keyframes packet{0%{transform:translateX(0);opacity:0}5%{opacity:1}92%{opacity:1}100%{transform:translateX(306px);opacity:0}}
+ @media(prefers-reduced-motion:reduce){*{animation:none!important}.focus,.packet{display:none}.progress{stroke-dashoffset:0;opacity:.4}}
+ </style>
+ <rect x=".5" y=".5" width="839" height="408" rx="6" fill="${c.bg}" stroke="${c.border}"/>
+ <path d="M1 48h838" stroke="${c.border}"/>
+ <g transform="translate(20 16)" fill="none" stroke="${c.muted}" stroke-width="1.4"><path d="M2 1h10l4 4v13H2zM12 1v5h4M5 9h7M5 13h7"/></g>
+ <text x="46" y="30" class="mono" font-size="13" fill="${c.muted}">engineering / <tspan fill="${c.text}" font-weight="600">capabilities</tspan></text>
+ <text x="817" y="30" text-anchor="end" font-size="12" fill="${c.muted}">Juan Carlos</text>
+ ${cards}
+ <path d="M20 351h788" stroke="${c.border}"/>
+ <text x="20" y="379" fill="${c.muted}" font-size="13">From idea to running software</text>
+ <g transform="translate(490 375)"><path d="M0 0h306" stroke="${c.border}"/><g fill="${c.bg}" stroke="${c.muted}" stroke-width="1.4"><circle r="3"/><circle cx="102" r="3"/><circle cx="204" r="3"/><circle cx="306" r="3"/></g><rect class="packet" x="-3" y="-3" width="6" height="6" rx="1" fill="${c.blue}"/></g>
+ </svg>\n`;
+}
 await mkdir('assets',{recursive:true});
-await writeFile('assets/engineering-showcase.svg',svg);
-console.log('Generated assets/engineering-showcase.svg');
+for(const theme of ['dark','light']) await writeFile(`assets/engineering-${theme}.svg`,render(theme));
+console.log('Generated dark and light GitHub-style SVGs');

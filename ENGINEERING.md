@@ -11,6 +11,6 @@ Four complementary capabilities, illustrated through projects from my portfolio:
 
 The animation is a conceptual tour of these capabilities. These independent projects are not presented as one integrated pipeline. It contains no activity scores or live telemetry.
 
-The self-contained SVG loops every 15 seconds and respects reduced-motion preferences. Project links remain below it in the profile README because links inside an SVG embedded as an image are not interactive.
+The self-contained SVG has light and dark variants selected by the README picture element using the browser color-scheme preference. It uses neutral panels, fine borders, code icons, and a subtle twelve-second highlight. It respects reduced-motion preferences. Project links remain below it in the profile README because links inside an SVG embedded as an image are not interactive.
 
 To regenerate it, run `node scripts/build-showcase.mjs` with Node.js. No packages, API token, scheduled workflow, or external image service is required.

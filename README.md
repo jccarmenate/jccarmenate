@@ -8,7 +8,13 @@ I'm interested in how software works end to end: from retrieval and agent orches
 
 ## From idea to running software
 
-[![From idea to running software — agent orchestration, retrieval, compiler engineering, and full-stack development](assets/engineering-showcase.svg)](ENGINEERING.md)
+<a href="ENGINEERING.md">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/engineering-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/engineering-light.svg">
+    <img src="assets/engineering-light.svg" alt="Engineering capabilities: agent orchestration, information retrieval, compiler engineering, and full-stack development" width="840">
+  </picture>
+</a>
 
 *I build across the stack — from compilers to AI agents. [Explore the capabilities](ENGINEERING.md).*
 
