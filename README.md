@@ -1,38 +1,31 @@
-# Hi, I'm Juan Carlos
+<img src="assets/profile-bar.svg" width="1000" alt="jccarmenate / README.md">
+<img src="assets/night-banner.jpg" width="1000" alt="Juan Carlos — AI systems, compilers and full-stack. Illustrated moonlit mountains in blue and violet.">
+<img src="assets/identity-tags.svg" width="1000" alt="Developer · Open source · AI systems · Compilers · Full-stack">
 
-Computer Science student at the University of Havana (MatCom), building AI tools, full-stack applications, and language tooling.
+Computer Science student at **University of Havana · MatCom**. I build complete systems, from search and AI agents to compilers and full-stack applications. **Open to internships and junior software engineering opportunities.**
 
-I'm interested in how software works end to end: from retrieval and agent orchestration to APIs, execution environments, and developer interfaces.
+<a href="PROFILE.md"><img src="assets/activity.svg" width="1000" alt="Recent public activity — observed REST events over the last 30 days; click for methodology"></a>
 
-**Open to internships and junior software engineering opportunities.**
+<table>
+<tr>
+<td width="44%" valign="top">
+<img src="assets/tech-stack.svg" width="430" alt="Tech stack: Python, TypeScript, Rust, C, React, PostgreSQL; FastAPI, LangGraph, LLVM, Prisma, Docker, Git and GitHub Actions">
+</td>
+<td width="56%" valign="top">
+<img src="assets/projects-heading.svg" width="530" alt="Featured Projects">
+<a href="https://github.com/jccarmenate/tech-rag-information-retrieval-system"><img src="assets/project-1.svg" width="530" alt="Tech RAG — search, retrieval and grounded answers"></a><br>
+<a href="https://github.com/jccarmenate/multiagent-code-generator"><img src="assets/project-2.svg" width="530" alt="Multi-agent Code Generator — from specifications to tested applications"></a><br>
+<a href="https://github.com/jccarmenate/hulk-ide"><img src="assets/project-3.svg" width="530" alt="HULK IDE — compiler and language tooling"></a><br>
+<a href="https://github.com/jccarmenate/GuildWork"><img src="assets/project-4.svg" width="530" alt="GuildWork — role-based project management"></a>
+</td>
+</tr>
+</table>
 
-## From idea to running software
+### Open-source toolbox
 
-<a href="ENGINEERING.md">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/engineering-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/engineering-light.svg">
-    <img src="assets/engineering-light.svg" alt="Engineering capabilities: agent orchestration, information retrieval, compiler engineering, and full-stack development" width="840">
-  </picture>
-</a>
+<a href="https://portfolio-web-eight-rose.vercel.app/"><img src="assets/toolbox-1.svg" width="24%" alt="Portfolio — selected work and demos"></a>
+<a href="https://github.com/jccarmenate?tab=repositories"><img src="assets/toolbox-2.svg" width="24%" alt="Browse repositories"></a>
+<a href="LEARNING.md"><img src="assets/toolbox-3.svg" width="24%" alt="Current learning focus"></a>
+<a href="mailto:juancarlosmatcom@gmail.com"><img src="assets/toolbox-4.svg" width="24%" alt="Contact Juan Carlos by email"></a>
 
-*I build across the stack — from compilers to AI agents. [Explore the capabilities](ENGINEERING.md).*
-
-## Selected projects
-
-| Project | What it explores | Technologies |
-| --- | --- | --- |
-| [Tech RAG](https://github.com/jccarmenate/tech-rag-information-retrieval-system) | Information retrieval, hybrid search, and retrieval-augmented generation. | Python, FastAPI, ChromaDB, React |
-| [Multi-agent Code Generator](https://github.com/jccarmenate/multiagent-code-generator) | Coordinating agents to generate applications, execute tests, and iterate on failures. | Python, LangGraph, Docker, React |
-| [HULK IDE](https://github.com/jccarmenate/hulk-ide) | Compiler implementation and editor tooling for a statically typed language. | Rust, LLVM, TypeScript, LSP |
-| [GuildWork](https://github.com/jccarmenate/GuildWork) | Project management with role-based permissions and token-based authentication. | TypeScript, Express, Prisma, React |
-
-## More to explore
-
-My other projects cover networking, security, simulation, games, and quantitative analysis.
-
-[Browse my repositories](https://github.com/jccarmenate?tab=repositories)
-
-## Get in touch
-
-For opportunities or collaboration: [juancarlosmatcom@gmail.com](mailto:juancarlosmatcom@gmail.com).
+<sub>Public activity refreshes daily. [About this profile](PROFILE.md) · [Email](mailto:juancarlosmatcom@gmail.com)</sub>

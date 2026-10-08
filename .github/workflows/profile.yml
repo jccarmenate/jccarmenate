@@ -1,0 +1,33 @@
+name: Refresh nocturnal profile
+on:
+  schedule:
+    - cron: '37 10 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/render-profile.mjs'
+      - '.github/workflows/profile.yml'
+permissions:
+  contents: write
+concurrency:
+  group: nocturnal-profile
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Refresh public data and render panels
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/render-profile.mjs
+      - name: Publish changed panels
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Refresh public profile snapshot'
+          git push
