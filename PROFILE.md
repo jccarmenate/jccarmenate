@@ -1,6 +1,6 @@
 # About this profile
 
-This profile uses a custom nocturnal banner and local SVG panels inspired by the supplied design reference. The illustrated character is fictional. The banner was created with the built-in image generator; the panels are generated from editable code. All project and toolbox cards link to actual destinations through the README.
+This profile uses a minimal nocturnal banner and local SVG panels inspired by the supplied design reference. The banner was created with the built-in image generator; the panels are generated from editable code. All project and toolbox cards link to actual destinations through the README.
 
 ## Activity data
 

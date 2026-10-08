@@ -1,5 +1,5 @@
 <img src="assets/profile-bar.svg" width="1000" alt="jccarmenate / README.md">
-<img src="assets/night-banner.jpg" width="1000" alt="Juan Carlos — AI systems, compilers and full-stack. Illustrated moonlit mountains in blue and violet.">
+<img src="assets/minimal-banner.jpg" width="1000" alt="Juan Carlos — AI systems, compilers and full-stack. Minimal dark banner with italic lettering and subtle mountain contours.">
 <img src="assets/identity-tags.svg" width="1000" alt="Developer · Open source · AI systems · Compilers · Full-stack">
 
 Computer Science student at **University of Havana · MatCom**. I build complete systems, from search and AI agents to compilers and full-stack applications. **Open to internships and junior software engineering opportunities.**
