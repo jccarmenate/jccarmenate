@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "events": [
     {
       "id": "16744731307",
@@ -335,31 +335,6 @@
       "id": "21031434106",
       "at": "2026-09-12T05:23:16Z",
       "repo": "jccarmenate/MatCom-Guard"
-    },
-    {
-      "id": "20940654123",
-      "at": "2026-09-10T17:55:18Z",
-      "repo": "jccarmenate/portfolio-web"
-    },
-    {
-      "id": "20745042622",
-      "at": "2026-09-10T17:41:19Z",
-      "repo": "jccarmenate/hulk-ide"
-    },
-    {
-      "id": "20710021506",
-      "at": "2026-09-10T17:29:25Z",
-      "repo": "jccarmenate/hulk-ide"
-    },
-    {
-      "id": "20918087500",
-      "at": "2026-09-10T16:37:59Z",
-      "repo": "jccarmenate/hulk-ide"
-    },
-    {
-      "id": "20834530796",
-      "at": "2026-09-10T16:30:06Z",
-      "repo": "jccarmenate/hulk-ide"
     }
   ]
 }
