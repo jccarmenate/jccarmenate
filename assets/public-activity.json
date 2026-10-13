@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "events": [
     {
       "id": "23805677638",
@@ -334,21 +334,6 @@
     {
       "id": "21127852686",
       "at": "2026-09-14T20:40:08Z",
-      "repo": "jccarmenate/MatCom-Guard"
-    },
-    {
-      "id": "20967230725",
-      "at": "2026-09-13T03:54:41Z",
-      "repo": "jccarmenate/MatCom-Guard"
-    },
-    {
-      "id": "20967228380",
-      "at": "2026-09-13T03:54:38Z",
-      "repo": "jccarmenate/MatCom-Guard"
-    },
-    {
-      "id": "20967038886",
-      "at": "2026-09-13T03:50:10Z",
       "repo": "jccarmenate/MatCom-Guard"
     }
   ]
