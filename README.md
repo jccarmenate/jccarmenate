@@ -1,31 +1,55 @@
-<img src="assets/profile-bar.svg" width="1000" alt="jccarmenate / README.md">
-<img src="assets/minimal-banner.jpg" width="1000" alt="Juan Carlos — AI systems, compilers and full-stack. Minimal dark banner with italic lettering and subtle mountain contours.">
-<img src="assets/identity-tags.svg" width="1000" alt="Developer · Open source · AI systems · Compilers · Full-stack">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" width="100%" alt="Juan Carlos — I build AI agents and RAG systems, compilers, systems software, real-time apps and algorithms">
+</picture>
 
-Computer Science student at **University of Havana · MatCom**. I build complete systems, from search and AI agents to compilers and full-stack applications. **Open to internships and junior software engineering opportunities.**
+<sub>**EN** · [ES ↓](#español)</sub>
 
-<a href="PROFILE.md"><img src="assets/activity.svg" width="1000" alt="Recent public activity — observed REST events over the last 30 days; click for methodology"></a>
+Final-year Computer Science student at the University of Havana (MatCom). I like building whole systems end to end: from the parser to the IDE, from the retrieval model to the answer, from raw sockets to the UI.
 
-<table>
-<tr>
-<td width="44%" valign="top">
-<img src="assets/tech-stack.svg" width="430" alt="Tech stack: Python, TypeScript, Rust, C, React, PostgreSQL; FastAPI, LangGraph, LLVM, Prisma, Docker, Git and GitHub Actions">
-</td>
-<td width="56%" valign="top">
-<img src="assets/projects-heading.svg" width="530" alt="Featured Projects">
-<a href="https://github.com/jccarmenate/tech-rag-information-retrieval-system"><img src="assets/project-1.svg" width="530" alt="Tech RAG — search, retrieval and grounded answers"></a><br>
-<a href="https://github.com/jccarmenate/multiagent-code-generator"><img src="assets/project-2.svg" width="530" alt="Multi-agent Code Generator — from specifications to tested applications"></a><br>
-<a href="https://github.com/jccarmenate/hulk-ide"><img src="assets/project-3.svg" width="530" alt="HULK IDE — compiler and language tooling"></a><br>
-<a href="https://github.com/jccarmenate/GuildWork"><img src="assets/project-4.svg" width="530" alt="GuildWork — role-based project management"></a>
-</td>
-</tr>
-</table>
+**Open to internships and junior software engineering roles.**
 
-### Open-source toolbox
+### What I do best
 
-<a href="https://portfolio-web-eight-rose.vercel.app/"><img src="assets/toolbox-1.svg" width="24%" alt="Portfolio — selected work and demos"></a>
-<a href="https://github.com/jccarmenate?tab=repositories"><img src="assets/toolbox-2.svg" width="24%" alt="Browse repositories"></a>
-<a href="LEARNING.md"><img src="assets/toolbox-3.svg" width="24%" alt="Current learning focus"></a>
-<a href="mailto:juancarlosmatcom@gmail.com"><img src="assets/toolbox-4.svg" width="24%" alt="Contact Juan Carlos by email"></a>
+**AI & information retrieval**<br>
+RAG on a Bayesian inference-network model with multimodal (CLIP) search. LangGraph agents that write full-stack apps, test them in Docker sandboxes and fix their own mistakes.<br>
+<sub>[tech-rag](https://github.com/jccarmenate/tech-rag-information-retrieval-system) · [multiagent-code-generator](https://github.com/jccarmenate/multiagent-code-generator) · [ReviewLens](https://github.com/jccarmenate/ReviewLens)</sub>
 
-<sub>Public activity refreshes daily. [About this profile](PROFILE.md) · [Email](mailto:juancarlosmatcom@gmail.com)</sub>
+**Compilers & language tooling**<br>
+A Rust / LLVM 17 compiler for the HULK language, with its own LSP server and VS Code extension.<br>
+<sub>[hulk-ide](https://github.com/jccarmenate/hulk-ide)</sub>
+
+**Systems & networking**<br>
+A multi-threaded C99 security monitor for Linux. Link-layer P2P chat over raw sockets with X25519 + ChaCha20-Poly1305. A captive portal.<br>
+<sub>[MatCom-Guard](https://github.com/jccarmenate/MatCom-Guard) · [Link-Chat](https://github.com/jccarmenate/Link-Chat) · [Captive-Portal](https://github.com/jccarmenate/Captive-Portal)</sub>
+
+**Real-time & full-stack**<br>
+A multiplayer whiteboard synced with Yjs CRDTs on Cloudflare Durable Objects. A role-based project manager with JWT refresh-token rotation.<br>
+<sub>[live-cooperating-dashboard](https://github.com/jccarmenate/live-cooperating-dashboard) · [GuildWork](https://github.com/jccarmenate/GuildWork)</sub>
+
+**Algorithms & modeling**<br>
+An ICPC team reference tested against brute force. An MCTS + RAVE Hex AI. SEIR discrete-event simulation and Monte Carlo portfolio analysis.<br>
+<sub>[ICPC-Team-Reference](https://github.com/jccarmenate/ICPC-Team-Reference) · [HexArena](https://github.com/jccarmenate/HexArena) · [Population-Simulation](https://github.com/jccarmenate/Population-Simulation) · [quantedge](https://github.com/jccarmenate/quantedge)</sub>
+
+### Tools
+
+`Python` `TypeScript` `Rust` `C` `C++`<br>
+<sub>LangGraph · FastAPI · LLVM · Next.js · Astro · Yjs · Docker · PostgreSQL · SQLite · Flutter</sub>
+
+### Contact
+
+[Portfolio](https://portfolio-web-eight-rose.vercel.app/) · [juancarlosmatcom@gmail.com](mailto:juancarlosmatcom@gmail.com)
+
+<br>
+
+### Español
+
+Estudiante de último año de Ciencias de la Computación en la Universidad de La Habana (MatCom). Me gusta construir sistemas completos de punta a punta: del parser al IDE, del modelo de recuperación a la respuesta, de los sockets raw a la interfaz.
+
+**Busco prácticas y puestos de ingeniero de software junior.**
+
+- **IA y recuperación de información:** RAG, búsqueda multimodal y agentes que generan, prueban y corrigen código.
+- **Compiladores:** compilador de HULK en Rust / LLVM con servidor LSP y extensión de VS Code.
+- **Sistemas y redes:** monitor de seguridad en C, chat P2P sobre sockets raw con cifrado y un portal cautivo.
+- **Tiempo real y full-stack:** pizarra colaborativa con CRDTs y un gestor de proyectos con permisos por rol.
+- **Algoritmos y modelado:** referencia ICPC, IA de Hex con MCTS y simulación epidemiológica.

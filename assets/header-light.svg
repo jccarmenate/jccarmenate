@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="220" viewBox="0 0 880 220" role="img" aria-labelledby="t">
+  <title id="t">Juan Carlos — I build AI agents and RAG systems, compilers, systems software, real-time apps and algorithms</title>
+  <style>
+    text { font-family: ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; }
+    .mono { font-family: ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace; font-size: 13px; fill: #59636e; letter-spacing: .02em; }
+    .name { font-size: 56px; font-weight: 600; letter-spacing: -1.5px; fill: #1f2328; animation: rise 1s cubic-bezier(.2,.7,.2,1) both; }
+    .lead { font-size: 22px; fill: #59636e; animation: fade 1s .3s ease-out both; }
+    .word { font-size: 22px; font-weight: 500; animation: cycle 15s ease-in-out infinite both; }
+    line { stroke-width: 2; stroke-linecap: round; }
+    .seg { stroke-dasharray: 36; animation: fill 15s linear infinite both; }
+    .dot { fill: #1a7f37; }
+    .pulse { fill: #1a7f37; transform-origin: 714px 194px; animation: pulse 2.4s ease-out infinite; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes cycle {
+      0% { opacity: 0; transform: translateY(8px); }
+      3% { opacity: 1; transform: none; }
+      17% { opacity: 1; transform: none; }
+      20% { opacity: 0; transform: translateY(-8px); }
+      100% { opacity: 0; transform: translateY(-8px); }
+    }
+    @keyframes fill {
+      0% { stroke-dashoffset: 36; opacity: 1; }
+      20% { stroke-dashoffset: 0; opacity: 1; }
+      20.01% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes pulse { 0% { opacity: .5; transform: scale(1); } 70%, 100% { opacity: 0; transform: scale(3); } }
+    @media (prefers-reduced-motion: reduce) {
+      .name, .lead, .pulse { animation: none; }
+      .word, .seg { animation: none; opacity: 0; }
+      .first { opacity: 1; stroke-dashoffset: 0; }
+    }
+  </style>
+  <text class="mono" x="0" y="40">~/jccarmenate</text>
+  <text class="mono" x="880" y="40" text-anchor="end">Havana · University of Havana (MatCom)</text>
+  <text class="name" x="-2" y="112">Juan Carlos</text>
+  <text class="lead" x="0" y="164">I build</text>
+  <text class="word first" x="0" y="164" style="animation-delay:0.8s"><tspan fill="transparent">I build </tspan><tspan fill="#0f766e">AI agents &amp; RAG systems</tspan></text>
+  <text class="word" x="0" y="164" style="animation-delay:3.8s"><tspan fill="transparent">I build </tspan><tspan fill="#0f766e">compilers &amp; language tooling</tspan></text>
+  <text class="word" x="0" y="164" style="animation-delay:6.8s"><tspan fill="transparent">I build </tspan><tspan fill="#0f766e">systems &amp; network software</tspan></text>
+  <text class="word" x="0" y="164" style="animation-delay:9.8s"><tspan fill="transparent">I build </tspan><tspan fill="#0f766e">real-time full-stack apps</tspan></text>
+  <text class="word" x="0" y="164" style="animation-delay:12.8s"><tspan fill="transparent">I build </tspan><tspan fill="#0f766e">fast, tested algorithms</tspan></text>
+  <line x1="1" y1="198" x2="36" y2="198" stroke="#d1d9e0"/>
+  <line class="seg first" x1="1" y1="198" x2="36" y2="198" stroke="#0f766e" style="animation-delay:0.8s"/>
+  <line x1="45" y1="198" x2="80" y2="198" stroke="#d1d9e0"/>
+  <line class="seg" x1="45" y1="198" x2="80" y2="198" stroke="#0f766e" style="animation-delay:3.8s"/>
+  <line x1="89" y1="198" x2="124" y2="198" stroke="#d1d9e0"/>
+  <line class="seg" x1="89" y1="198" x2="124" y2="198" stroke="#0f766e" style="animation-delay:6.8s"/>
+  <line x1="133" y1="198" x2="168" y2="198" stroke="#d1d9e0"/>
+  <line class="seg" x1="133" y1="198" x2="168" y2="198" stroke="#0f766e" style="animation-delay:9.8s"/>
+  <line x1="177" y1="198" x2="212" y2="198" stroke="#d1d9e0"/>
+  <line class="seg" x1="177" y1="198" x2="212" y2="198" stroke="#0f766e" style="animation-delay:12.8s"/>
+  <circle class="pulse" cx="714" cy="194" r="3.5"/>
+  <circle class="dot" cx="714" cy="194" r="3.5"/>
+  <text class="mono" x="880" y="198" text-anchor="end">open to internships</text>
+</svg>
